@@ -48,3 +48,41 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+# Tic Tac Toe AI
+
+This project is a Tic Tac Toe game implemented in Python using Pygame. It includes an AI opponent that uses the Minimax algorithm to make decisions. The game allows for a single-player experience where the player competes against the AI.
+
+## Features
+
+- **Single-player mode**: Play against an AI opponent.
+- **Minimax Algorithm**: The AI uses the Minimax algorithm to determine the best move.
+- **Graphical Interface**: The game has a simple and clean graphical interface built with Pygame.
+- **Restart functionality**: Press 'R' to restart the game.
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/tictactoe-ai.git
+    cd tictactoe-ai
+    ```
+
+2. **Create and activate a virtual environment** (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install pygame numpy
+    ```
+
+## Usage
+
+To start the game, run the following command:
+```bash
+python tictactoe.py
+
