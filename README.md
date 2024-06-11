@@ -86,3 +86,23 @@ To start the game, run the following command:
 ```bash
 python tictactoe.py
 
+
+# Face Recognition System
+
+## Introduction
+
+This project is a simple face recognition system implemented using OpenCV and scikit-learn. The system captures video from a webcam, detects faces in real-time, and recognizes them based on a pre-trained K-Nearest Neighbors classifier.
+
+## Requirements
+
+- Python 3.x
+- OpenCV
+- scikit-learn
+- win32com (for Windows users)
+
+You can install the required Python packages using pip:
+
+```bash
+pip install opencv-python scikit-learn
+
+
